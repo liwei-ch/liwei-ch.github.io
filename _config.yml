@@ -3,7 +3,7 @@ highlighter: pygments
 pygments: true
 permalink: /:title
 encoding: utf-8
-title: BeiYuu.com
+title: liwei-ch.com
 url: http://liwei-ch.github.io
 feed: /atom.xml
 author_info: <a href="http://liwei-ch.github.io/">liwei-ch</a>
