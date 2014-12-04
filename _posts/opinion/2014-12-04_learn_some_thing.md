@@ -2,7 +2,7 @@
 layout: post
 title: 目标
 description:
-category: blog
+category: opinion
 ---
 
 精通一门最常用的语言
