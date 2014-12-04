@@ -8,16 +8,4 @@ url: http://liwei-ch.github.io
 feed: /atom.xml
 author_info: <a href="http://liwei-ch.github.io/">liwei-ch</a>
 
-defaults:
--
-  scope:
-      path: "" # an empty string here means all files in the project
-  values:
-      layout: ""
--
-  scope:
-       path: "blog"
-  values:
-       layout: "blog"
-
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
