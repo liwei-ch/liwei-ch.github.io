@@ -1,6 +1,5 @@
 auto: true
-highlighter: pygments
-pygments: true
+highlighter: rouge
 permalink: /:title
 encoding: utf-8
 title: liwei-ch.com
