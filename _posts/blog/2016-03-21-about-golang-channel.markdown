@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于golang的一些使用注意事项
+title: 关于golang的channel一些使用注意事项
 description: 
 category: blog
 ---
@@ -172,11 +172,11 @@ select {
             println(i) 
 } 
 //写的超时设置
-elect { 
-        case <- time.After(time.Second *2): 
-                    println("write channel timeout") 
-                        case ch <- "hello": 
-                            println("write ok") 
+select { 
+    case <- time.After(time.Second *2): 
+        println("write channel timeout") 
+    case ch <- "hello": 
+        println("write ok") 
 }
 </code></pre>
 
